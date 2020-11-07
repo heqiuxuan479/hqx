@@ -1,0 +1,12 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Work1</string>
+    <string name="female">女</string>
+    <string name="male">男</string>
+
+    <string name="e_mei_mountatin">峨眉山</string>
+    <string name="qing_cheng_mountain">青城山</string>
+    <string name="phoenix_mountain">凤凰山</string>
+    <string name="san_qing_mountain">三清山</string>
+    <string name="your_hobbies_info">您选择的兴趣爱好是：<xliff:g id="hobbies">%s</xliff:g></string>
+
+</resources>

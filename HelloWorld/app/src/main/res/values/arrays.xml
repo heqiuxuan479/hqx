@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="visit_place_array">
+        <item >@string/e_mei_mountatin</item>
+        <item >@string/qing_cheng_mountain</item>
+        <item >@string/phoenix_mountain</item>
+        <item >@string/san_qing_mountain</item>
+</string-array>
+
+    <string-array name="place_array">
+        <item>BeiJing</item>
+        <item>ShangHai</item>
+    </string-array>
+
+    </resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="410dp"
+        android:height="75dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="10dp"
+        android:width="260dp"
+        android:layout_alignParentLeft="true"
+        android:text="身高体重智能测试终端" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:height="75dp"
+        android:layout_alignParentRight="true"
+        android:text="2020年9月25日\n星期五16:03" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="西南财经大学天府学院智能科技学院"
+        android:width="260dp"
+        android:textSize="8sp"
+        android:height="10dp"
+        android:layout_below="@id/button2"
+        />
+
+</RelativeLayout>
