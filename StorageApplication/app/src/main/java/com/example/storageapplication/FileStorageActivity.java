@@ -1,14 +1,13 @@
-package com.example.activityapplication;
+package com.example.storageapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 
-public class NormalActivity extends AppCompatActivity {
+public class FileStorageActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.normal_layout);
+        setContentView(R.layout.activity_filestorage);
     }
 }

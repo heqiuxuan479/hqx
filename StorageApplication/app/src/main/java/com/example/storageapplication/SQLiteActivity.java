@@ -1,14 +1,14 @@
-package com.example.activityapplication;
+package com.example.storageapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class DialogActivity extends AppCompatActivity {
+public class SQLiteActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.dialog_layout);
+        setContentView(R.layout.activity_sqlite);
     }
 }
