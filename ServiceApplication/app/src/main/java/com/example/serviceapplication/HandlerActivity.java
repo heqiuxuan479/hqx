@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class ThreadActivity extends AppCompatActivity implements View.OnClickListener {
+public class HandlerActivity extends AppCompatActivity implements View.OnClickListener {
     public static final int UPDATE_TEXT = 1;
     public static final int UPDATE_BG = 2;
     private TextView myText;
@@ -31,7 +31,7 @@ public class ThreadActivity extends AppCompatActivity implements View.OnClickLis
                     myText.setText("Nice to meet you");
                     break;
                 case UPDATE_BG:
-                    myText.setTextColor(Color.parseColor("#0000FF"));
+                    myText.setTextColor(Color.parseColor("#A9A9F5"));
                     break;
                     default:
                         break;

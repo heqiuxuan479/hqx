@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="tilte_color">#000000</color>
+    <color name="bar_color">#FAFAFA</color>
+    <color name="bottom_color">#FFFFFF</color>
+    <color name="viewpager_color">#FAFAFA</color>
+    <color name="theme">#22D59D</color>
+    <color name="text">#747474</color>
+    <color name="sq">#E8B959</color>
+    <color name="song">#8E8E8E</color>
+    <color name="seek">#746C69</color>
+</resources>

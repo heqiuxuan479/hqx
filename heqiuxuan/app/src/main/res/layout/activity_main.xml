@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/p1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="111dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="76dp"
+        android:text="欢迎使用!"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="204dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_1" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:layout_width="90dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/p2"
+        android:text="拨      打"
+        android:textSize="80px"
+        android:textColor="#000000"
+        app:layout_constraintStart_toEndOf="@+id/et_1"
+        app:layout_constraintTop_toTopOf="@+id/et_1" />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:layout_width="90dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/p2"
+        android:text="联 系 人"
+        android:textSize="80px"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btn_2"
+        app:layout_constraintTop_toBottomOf="@+id/btn_2"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:layout_width="87dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/p2"
+        android:text="短      信"
+        android:textSize="80px"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/btn_1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_1" />
+
+    <Button
+        android:id="@+id/btn_4"
+        android:layout_width="90dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/p2"
+        android:text="相      机"
+        android:textSize="80px"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/btn_5"
+        app:layout_constraintTop_toBottomOf="@+id/btn_5" />
+
+    <Button
+        android:id="@+id/btn_5"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/p2"
+        android:text="地      图"
+        android:textSize="80px"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="@+id/btn_3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_3" />
+
+    <EditText
+        android:id="@+id/et_1"
+        android:layout_width="206dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="166dp"
+        android:hint="        请输入电话号码"
+        android:inputType="phone"
+        android:textColorHint="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/iv_pic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
